@@ -1,0 +1,110 @@
+.activities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-box {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .results-text {
+    font-size: 16px;
+    color: #aaa;
+    margin-top: 10px;
+  }
+  
+  .activities-list {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .activity-card {
+    display: flex;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .activity-image {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .activity-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .activity-name {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .activity-rating {
+    font-size: 14px;
+    color: #ffdd00;
+  }
+  
+  .activity-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .original-price {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 5px;
+  }
+  
+  .discounted-price {
+    font-size: 16px;
+    color: #ff4d4d;
+  }
+  
+  .discount {
+    font-size: 14px;
+    color: #0f0;
+  }
